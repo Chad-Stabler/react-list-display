@@ -8,6 +8,9 @@ import { bosses } from './bosses-data.js';
 import BossList from './BossList';
 import { reddit } from './reddit-data.js';
 import RedditList from './RedditList';
+import { puppers } from './rarepups-data.js';
+import PupList from './PupList';
+
 import './App.css';
 // import your arrays here
 
@@ -19,6 +22,7 @@ function App() {
       <FoodList foods={foods}/>
       <BossList bosses={bosses}/>
       <RedditList reddit={reddit}/>
+      <PupList puppers={puppers}/>
     </div>
   );
 }
