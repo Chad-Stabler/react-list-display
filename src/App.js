@@ -6,6 +6,8 @@ import { foods } from './foods-data.js';
 import FoodList from './FoodList';
 import { bosses } from './bosses-data.js';
 import BossList from './BossList';
+import { reddit } from './reddit-data.js';
+import RedditList from './RedditList';
 import './App.css';
 // import your arrays here
 
@@ -16,6 +18,7 @@ function App() {
       <DogList dogs={dogs}/>
       <FoodList foods={foods}/>
       <BossList bosses={bosses}/>
+      <RedditList reddit={reddit}/>
     </div>
   );
 }
