@@ -2,9 +2,9 @@ import CandyItem from './CandyItem';
 
 
 export default function CandyList({ candies }) {
-  return <div>
+  return <section>
     {
       candies.map((candy, i) => <CandyItem candy={candy} key={candy + i}/>)
     }
-  </div>;
+  </section>;
 }

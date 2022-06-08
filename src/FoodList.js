@@ -1,9 +1,9 @@
 import FoodItem from './FoodItem';
 
 export default function FoodList({ foods }) {
-  return (<div>
+  return (<section>
     {
       foods.map((food, i) => <FoodItem {...food} key={food.name + i} />)
     }
-  </div>);
+  </section>);
 }
